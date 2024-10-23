@@ -221,6 +221,13 @@ main {
 
 @media (max-width: 768px) {
 
+    .head-h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
     .body {
         display: flex;
         justify-content: center;
