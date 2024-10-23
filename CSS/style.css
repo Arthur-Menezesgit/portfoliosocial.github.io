@@ -223,7 +223,6 @@ main {
 @media (max-width: 768px) {
 
     .body {
-        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -243,7 +242,6 @@ main {
         align-items: center;
         justify-content: center;
         text-align: center;
-        width: 100%;
 
     }
 
