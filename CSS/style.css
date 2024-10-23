@@ -1,0 +1,263 @@
+body {
+    width: 1853px;
+    height: 100%;
+    margin: 0px;
+    background-color: rgb(48, 47, 47);
+    overflow: hidden;
+}
+
+
+.head {
+    display: flex;
+    flex-direction: column;
+    width: 2000px;
+    height: 70px;
+    background-color: black;
+    border-bottom: 1px solid rgb(247, 241, 241);
+    border-top: 1px solid rgb(247, 241, 241);
+    display: block;
+}
+
+.card-image {
+    max-width: 150px;
+    height: 60px;
+    width: 70px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.htcontainer {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+
+.head h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+    margin-top: -45px;
+    width: 1750px;
+    margin-left: -160px;
+    order: 1;
+
+
+
+}
+
+.hscontainer {
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-top: -20px;
+    color: white;
+    margin-right: 20px;
+    gap: 20px;
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1613px;
+    display: flex;
+    margin: 30px auto 0 120px;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 15px;
+
+}
+
+.HG {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: bisque;
+    display: block;
+    order: 1;
+    margin: 16px 0 0 90px;
+
+
+}
+
+.title-main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: #fff;
+    display: block;
+    order: 2;
+    margin: 0px 0px 0px 0px;
+}
+
+.creatordesc {
+    margin: 40px 0 0 90px;
+    order: 3;
+    color: #fff;
+
+}
+
+.txt-1 {
+    order: 2;
+    margin-left: 45px;
+    color: #fff;
+    font-family: 'Young Serif';
+    width: 900px;
+    font-size: 22px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.main-box {
+    width: 1613px;
+    height: 700px;
+    border-radius: 15px;
+    display: flex;
+    margin: 30px 120px 0px 120px;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.background-video {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    width: 1613px;
+    height: 700px;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+
+}
+
+.sub-box {
+    height: 650px;
+    border-radius: 10px;
+    display: table;
+    margin: 25px 0px 25px 25px;
+    position: relative;
+    /* Para garantir que o conteúdo fique acima do vídeo */
+    z-index: 1;
+    /* Traz o conteúdo para frente do vídeo */
+
+
+}
+
+.social-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+    display: block;
+    width: 500px;
+}
+
+.social-buttons a {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 45px;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(143, 140, 140);
+    /* Cor de fundo dos botões */
+    color: white;
+    /* Cor do texto */
+    text-decoration: none;
+    /* Remover o sublinhado */
+    border: 1px solid #ccc;
+    /* Borda ao redor do botão */
+    border-radius: 5px;
+    /* Arredondar os cantos dos botões */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.social-buttons a:hover {
+    background-color: #555;
+}
+
+.profile-image {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #070707;
+    float: left;
+    margin-left: 10px;
+
+}
+
+.imagebox {
+    order: 1;
+    margin: 20px 0 0 0px;
+    color: #fff;
+    font-family: 'Young Serif';
+    width: 260px;
+    font-size: 22px;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    float: right;
+    flex-direction: column;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+
+}
+
+@media (max-width: 768px) {
+
+    .body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 900px;
+        min-width: 430px;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+
+    }
+
+    .main,
+    .main-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .txt-1,
+    .imagebox {
+        max-width: 700px;
+        padding: 10px;
+
+    }
+
+    .htcontainer h1 {
+        font-size: 1.5em;
+    }
+
+    .profile-image {
+        max-width: 250px;
+    }
+
+
+}
